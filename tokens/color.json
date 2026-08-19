@@ -27,6 +27,7 @@
       "50": { "$type": "color", "$value": "#D5661B"}
     },
     "neutral": {
+      "0":   { "$type": "color", "$value": "#FFFFFF", "$description": "Pure white — default background for light applications (slides, reports, website)" },
       "10":  { "$type": "color", "$value": "#FBFAFA"},
       "20":  { "$type": "color", "$value": "#F9F7F6"},
       "30":  { "$type": "color", "$value": "#E8E5E3"},
