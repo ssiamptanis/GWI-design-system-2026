@@ -1,37 +1,52 @@
 {
   "color": {
     "pink": {
-      "light": { "$type": "color", "$value": "#FFD2DF", "$description": "Pink Light — tints/backgrounds" },
-      "base":  { "$type": "color", "$value": "#FF0077", "$description": "Pink — primary brand color, used in the logo mark" },
-      "dark":  { "$type": "color", "$value": "", "$description": "Pink Dark — add hex" }
+      "10":  { "$type": "color", "$value": "#FFF1F5"},
+      "20":  { "$type": "color", "$value": "#FFE8EE"},
+      "30":  { "$type": "color", "$value": "#FFD2DF"},
+      "40":  { "$type": "color", "$value": "#FFBACE"},
+      "50":  { "$type": "color", "$value": "#FF9FBD"},
+      "60":  { "$type": "color", "$value": "#FF80A9"},
+      "70":  { "$type": "color", "$value": "#FF5993"},
+      "80":  { "$type": "color", "$value": "#FF0077"},
+      "90":  { "$type": "color", "$value": "#DC1F69"},
+      "100": { "$type": "color", "$value": "#CC005F"}
     },
     "lime": {
-      "light": { "$type": "color", "$value": "", "$description": "Lime Light — add hex" },
-      "base":  { "$type": "color", "$value": "", "$description": "Lime — add hex" },
-      "dark":  { "$type": "color", "$value": "#729508", "$description": "Lime Dark — used in mono logo variant" }
+      "10":  { "$type": "color", "$value": "#F5FFD7"},
+      "20":  { "$type": "color", "$value": "#EDFFB8"},
+      "30":  { "$type": "color", "$value": "#D2EA88"},
+      "40":  { "$type": "color", "$value": "#B9DB51"},
+      "50": { "$type": "color", "$value": "#729508"}
     },
     "orange": {
-      "light": { "$type": "color", "$value": "", "$description": "Orange Light — add hex" },
-      "base":  { "$type": "color", "$value": "", "$description": "Orange — add hex" },
-      "dark":  { "$type": "color", "$value": "#D5661B", "$description": "Orange Dark — used in mono logo variant" }
+      "10":  { "$type": "color", "$value": "#FFF1E6"},
+      "20":  { "$type": "color", "$value": "#FFE3D1"},
+      "30":  { "$type": "color", "$value": "#FDC9A6"},
+      "40":  { "$type": "color", "$value": "#FD9647"},
+      "50": { "$type": "color", "$value": "#D5661B"}
     },
     "neutral": {
-      "10":  { "$type": "color", "$value": "#FBFAFA", "$description": "Neutral 10 — near-white, used in dark-mode logo" },
-      "20":  { "$type": "color", "$value": "", "$description": "add hex" },
-      "30":  { "$type": "color", "$value": "", "$description": "add hex" },
-      "40":  { "$type": "color", "$value": "", "$description": "add hex" },
-      "50":  { "$type": "color", "$value": "", "$description": "add hex" },
-      "60":  { "$type": "color", "$value": "", "$description": "add hex" },
-      "70":  { "$type": "color", "$value": "", "$description": "add hex" },
-      "80":  { "$type": "color", "$value": "", "$description": "add hex" },
-      "90":  { "$type": "color", "$value": "", "$description": "add hex" },
-      "100": { "$type": "color", "$value": "#1E1B1A", "$description": "Neutral 100 — near-black, used in light-mode logo" }
+      "10":  { "$type": "color", "$value": "#FBFAFA"},
+      "20":  { "$type": "color", "$value": "#F9F7F6"},
+      "30":  { "$type": "color", "$value": "#E8E5E3"},
+      "40":  { "$type": "color", "$value": "#D4D0CE"},
+      "50":  { "$type": "color", "$value": "#B0ACAA"},
+      "60":  { "$type": "color", "$value": "#9C9896"},
+      "70":  { "$type": "color", "$value": "#7F7B79"},
+      "80":  { "$type": "color", "$value": "#4C4947"},
+      "90":  { "$type": "color", "$value": "#282523"},
+      "100": { "$type": "color", "$value": "#1E1B1A"}
     },
-    "semantic": {
-      "success": { "$type": "color", "$value": "", "$description": "add hex" },
-      "warning": { "$type": "color", "$value": "", "$description": "add hex" },
-      "error":   { "$type": "color", "$value": "", "$description": "add hex" },
-      "info":    { "$type": "color", "$value": "", "$description": "add hex" }
+    "accessory": {
+      "success": { "$type": "color", "#00C28B"},
+      "warning": { "$type": "color", "#E6BA35"},
+      "error":   { "$type": "color", "#EC2352"},
+      "info":    { "$type": "color", "#0088FF"},
+      "cta primary":   { "$type": "color", "#D2EA88"},
+      "cta secondary":    { "$type": "color", "#0088FF"},
+                
     }
+        
   }
 }
