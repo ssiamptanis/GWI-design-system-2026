@@ -1,0 +1,37 @@
+{
+  "color": {
+    "pink": {
+      "light": { "$type": "color", "$value": "#FFD2DF", "$description": "Pink Light — tints/backgrounds" },
+      "base":  { "$type": "color", "$value": "#FF0077", "$description": "Pink — primary brand color, used in the logo mark" },
+      "dark":  { "$type": "color", "$value": "", "$description": "Pink Dark — add hex" }
+    },
+    "lime": {
+      "light": { "$type": "color", "$value": "", "$description": "Lime Light — add hex" },
+      "base":  { "$type": "color", "$value": "", "$description": "Lime — add hex" },
+      "dark":  { "$type": "color", "$value": "#729508", "$description": "Lime Dark — used in mono logo variant" }
+    },
+    "orange": {
+      "light": { "$type": "color", "$value": "", "$description": "Orange Light — add hex" },
+      "base":  { "$type": "color", "$value": "", "$description": "Orange — add hex" },
+      "dark":  { "$type": "color", "$value": "#D5661B", "$description": "Orange Dark — used in mono logo variant" }
+    },
+    "neutral": {
+      "10":  { "$type": "color", "$value": "#FBFAFA", "$description": "Neutral 10 — near-white, used in dark-mode logo" },
+      "20":  { "$type": "color", "$value": "", "$description": "add hex" },
+      "30":  { "$type": "color", "$value": "", "$description": "add hex" },
+      "40":  { "$type": "color", "$value": "", "$description": "add hex" },
+      "50":  { "$type": "color", "$value": "", "$description": "add hex" },
+      "60":  { "$type": "color", "$value": "", "$description": "add hex" },
+      "70":  { "$type": "color", "$value": "", "$description": "add hex" },
+      "80":  { "$type": "color", "$value": "", "$description": "add hex" },
+      "90":  { "$type": "color", "$value": "", "$description": "add hex" },
+      "100": { "$type": "color", "$value": "#1E1B1A", "$description": "Neutral 100 — near-black, used in light-mode logo" }
+    },
+    "semantic": {
+      "success": { "$type": "color", "$value": "", "$description": "add hex" },
+      "warning": { "$type": "color", "$value": "", "$description": "add hex" },
+      "error":   { "$type": "color", "$value": "", "$description": "add hex" },
+      "info":    { "$type": "color", "$value": "", "$description": "add hex" }
+    }
+  }
+}
