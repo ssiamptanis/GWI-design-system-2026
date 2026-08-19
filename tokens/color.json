@@ -39,14 +39,13 @@
       "100": { "$type": "color", "$value": "#1E1B1A"}
     },
     "accessory": {
-      "success": { "$type": "color", "#00C28B"},
-      "warning": { "$type": "color", "#E6BA35"},
-      "error":   { "$type": "color", "#EC2352"},
-      "info":    { "$type": "color", "#0088FF"},
-      "cta primary":   { "$type": "color", "#D2EA88"},
-      "cta secondary":    { "$type": "color", "#0088FF"},
-                
+      "success": { "$type": "color", "$value": "#00C28B"},
+      "warning": { "$type": "color", "$value": "#E6BA35"},
+      "error":   { "$type": "color", "$value": "#EC2352"},
+      "info":    { "$type": "color", "$value": "#0088FF"},
+      "cta_primary":        { "$type": "color", "$value": "#D2EA88"},
+      "cta_primary_stroke": { "$type": "color", "$value": "{color.neutral.100}", "$description": "Stroke/border color for cta_primary — aliased to neutral.100" },
+      "cta_secondary":      { "$type": "color", "$value": "#0088FF"}
     }
-        
   }
 }
