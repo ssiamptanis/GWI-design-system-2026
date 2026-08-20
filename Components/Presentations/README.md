@@ -9,6 +9,16 @@ viewer (one slide visible at a time, with previous/next arrow controls and left/
 support) rather than a long scrolling page of stacked slides — keep that viewer shell when
 producing a new deck from this template, just swap in the slide content.
 
+## Sentence case, never Title Case
+
+Titles, subtitles/headings, card titles, kickers/labels, and agenda/list topics are always set in
+**Sentence case** ("Built for every team, not just research"), never Title Case ("Built for Every
+Team, Not Just Research"). Only the first word (and any proper nouns) gets a capital letter. This
+applies to every short label across the deck — the front/divider title, content-page headings,
+card titles, agenda topics, and stat labels. **Body copy (lede paragraphs, card body text,
+talking-point paragraphs) was already normal sentence case and stays that way** — this rule just
+extends the same casing to headings/labels/short text, not just full sentences of prose.
+
 ## No dashes in slide copy
 
 Never use an en dash (`–`) or em dash (`—`) in generated slide content — titles, subtitles, lede

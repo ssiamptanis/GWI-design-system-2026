@@ -69,6 +69,10 @@ file before using a value, since this repo is a living document and gets updated
    written rules alone.
 9. **Never use dashes (en dash `–` or em dash `—`) in generated slide copy.** Rephrase with a
    period, comma, or "and"/"then" instead.
+10. **Titles, headings, and short labels use Sentence case, never Title Case** (e.g. "Built for
+    every team, not just research", not "Built for Every Team, Not Just Research"). This applies
+    to headings/titles/card titles/labels, same as body paragraphs, which are also normal sentence
+    case. See `../Components/Presentations/README.md` for the full casing rule.
 
 ## When generating new GWI-branded output
 
