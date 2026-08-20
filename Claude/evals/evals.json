@@ -1,0 +1,42 @@
+{
+  "skill_name": "gwi-design-system-2026",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "What color should I use for the primary CTA button, and what's the exact hex?",
+      "expected_output": "Identifies Lime as the primary CTA color, gives the exact hex (#D2EA88) sourced from tokens/color.json, and does not invent a generic/placeholder color.",
+      "files": [],
+      "expectations": [
+        "Names Lime as the primary CTA color",
+        "States the exact hex #D2EA88",
+        "Cites color.accessory.cta_primary or tokens/color.json as the source",
+        "Does not state a fabricated or generic hex not present in the token file"
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "Make me a simple HTML banner announcing GWI's new feature, using our brand colors and fonts.",
+      "expected_output": "A standalone HTML file that uses real hex values from tokens/color.json (not approximations), uses Lime for the CTA per the button rules, uses Ovo only for headline-weight text (Regular only, no faux bold/italic), and does not use Google Fonts CDN for Ovo/Instrument Sans.",
+      "files": [],
+      "expectations": [
+        "HTML contains at least one real token hex value from tokens/color.json (e.g. #D2EA88, #FF0077, #1E1B1A, #FBFAFA)",
+        "CTA/button element uses Lime (#D2EA88 family), not an arbitrary color",
+        "Does not load Ovo or Instrument Sans from the Google Fonts CDN (self-hosted per Typography/README.md)",
+        "Does not apply bold or italic styling to Ovo",
+        "Background color used is one listed as approved in tokens/color-usage.md"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Can I use the Wordmark logo on its own for a social media post?",
+      "expected_output": "Does not give a confident yes/no. States that Wordmark is restricted-use with no documented approved use cases yet, recommends defaulting to the Lockup, and flags this as an open gap rather than fabricating an answer.",
+      "files": [],
+      "expectations": [
+        "Does not confidently assert 'yes' without caveat",
+        "States that Wordmark's approved use cases are not yet documented",
+        "Recommends the Lockup as the safe default",
+        "Explicitly flags this as an open question in the repo rather than guessing"
+      ]
+    }
+  ]
+}
