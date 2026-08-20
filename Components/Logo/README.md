@@ -26,7 +26,9 @@ Approved use cases:
 Mark-only version (no wordmark). Rarely used standalone.
 
 Approved use cases:
-- *(add specific use cases here)*
+- **Content-page marker in presentations.** On main deck content pages (not covers, not
+  dividers), use the small Neutral 100 variant (`Color=Neutral 100.svg`) as a quiet page marker
+  in place of eyebrow/kicker text. See `../Presentations/README.md` for placement.
 
 ## Rule of thumb
 

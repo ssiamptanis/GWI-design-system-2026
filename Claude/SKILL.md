@@ -35,6 +35,8 @@ specific file you need for the task at hand:
 | Button colors/states/sizes | `../Components/Buttons/README.md` |
 | Icon colors | `../Components/Icons/README.md` |
 | Flag file naming | `../Components/Flags/` (self-explanatory: `Dark Mode - <Country>` / `Light Mode - <Country>`) |
+| Front/back cover, content page, and divider slide rules | `../Components/Presentations/README.md` |
+| Reference HTML template for generating a new deck | `../Templates/Presentation Template.html` |
 | Overview of what exists / where | `../FILE-STRUCTURE.md` |
 
 ## Core rules (the ones that matter most)
@@ -56,6 +58,17 @@ file before using a value, since this repo is a living document and gets updated
    use another approved token — see `../Components/Icons/README.md`.
 6. **Logo: Lockup is the default.** Wordmark and The Link are restricted to specific approved
    use cases — use Lockup unless you have a stated reason not to.
+7. **Cover slides are minimal, by rule.** Front cover = logo bottom-left, large title positioned
+   high on the page, subtitle, nothing else (no eyebrow, no footer, no page number). Back cover =
+   `color.neutral.100` background, logo centered horizontally and vertically, nothing else except
+   small muted year text. Full detail in `../Components/Presentations/README.md`.
+8. **When asked to build a GWI presentation/deck, use `../Templates/Presentation Template.html`
+   as the reference template** — it's the living example of correct margins, type sizes, leading,
+   card padding, cover/divider/content-page rules, and copy style (no dashes) all applied
+   together. Copy its structure and CSS approach rather than reinventing layout values from the
+   written rules alone.
+9. **Never use dashes (en dash `–` or em dash `—`) in generated slide copy.** Rephrase with a
+   period, comma, or "and"/"then" instead.
 
 ## When generating new GWI-branded output
 

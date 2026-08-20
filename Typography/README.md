@@ -56,6 +56,11 @@ See `tokens/typography.json` for the full machine-readable scale (desktop + mobi
 | Action sm | 16px | 14px | Instrument Sans, SemiBold |
 | Action xs | 12px | 10px | Instrument Sans, SemiBold |
 
+**Exception — stat/big numbers:** large callout figures used as a display element (e.g. "35B+",
+"2M+" stat blocks in decks) are always set in **Ovo**, regardless of the general Body/Action rule
+above — they're functioning as headline-scale display type, not body copy. See
+`Components/Presentations/README.md`.
+
 **Flag to note:** Display md/sm are labeled "Medium" weight in the deck, which is why they're set in Instrument Sans rather than Ovo even though their pixel size (96px/64px) clears the "48px minimum" mentioned for Ovo — Ovo only ships in Regular, so it physically can't carry a Medium weight. The 48px rule determines which *category* (Display xl/lg, Heading 01/02) gets Ovo; within that, weight is what actually confirms it. Worth a quick sanity check with whoever owns the Figma file that Display md/sm are deliberately Instrument Sans and not a labeling slip.
 
 ## Usage principles (from the guidelines, verbatim intent)
