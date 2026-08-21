@@ -1,4 +1,4 @@
-# GWI Design System 2026
+# GWI Design System 2026 - For internal use only at this stage
 
 Single source of truth for the GWI rebrand — colors, typography, and UI components. Built to be read by more than just humans: this repo is meant to feed a Claude Skill, a Claude design skill, Cursor, and other LLM/design tools directly, so values and rules only need to be defined once, here, rather than copy-pasted into every consuming system.
 
